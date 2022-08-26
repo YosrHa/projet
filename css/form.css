@@ -1,0 +1,92 @@
+body{
+    background:#eeeff1;
+}
+
+
+
+
+
+.form-container form{
+
+    display: list-item;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    position: absolute;
+    bottom: 4rem;
+    left: 100px;
+    background-color: lightsalmon;
+    padding:20px ;
+    border-radius: 0.5rem;
+    
+        }
+    .input-box{
+    flex: 1 1 7rem;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+    }
+    .input-box span{
+        font-weight: 500;
+    }
+    .input-box input{
+    padding: 7px;
+    outline: none;
+    border: none;
+    background: #fff;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+    width: 350px;
+    }
+    .form-container form .btn{
+    flex: 1 1 7rem;
+    padding: 10px 34px;
+    border:none;
+    border-radius: 0.5rem;
+    background: #474fa0;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 500;
+    
+    
+    }
+    .form-container form .btn:hover{
+        background: var(#ddd);
+    }
+    .register{
+        font-family: 'Courier New', monospace ;
+        font-size: xxx-large;
+        margin-left: 100px;
+    }
+    .fill{
+        margin-top: -45px;
+margin-left: 200px;
+font-family: monospace;
+font-size:large;
+
+    }
+    #yoyo{
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding: 5px;
+        width: 600px;
+        margin-left:800px ;
+        margin-top: 0px;
+        height: 500px;
+        
+       
+      }
+      .vl1 {
+        margin-top: -33.5%;
+        margin-left: 650px;
+        border-left: 6px solid black;
+        height: 500px;
+      }
+      .vl2 {
+        margin-top: -32.9%;
+        margin-left: 640px;
+        border-left: 6px solid black;
+        height: 500px;
+      }
+      

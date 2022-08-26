@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Forum</title>
+    
+    <!--Link To CSS -->
+    <link rel="stylesheet" href="../css/form.css">
+    <!--BoxIcons-->
+    <link rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+ <script src="../js/main.js"></script>
+<h2 class="register">Register Now!!</h2>
+<h5 class="fill">Fill The Form And Rent Your Car</h5>
+
+
+
+
+
+
+    <div class="box-img">
+        <img id="yoyo" src="../image/im1.jpeg" alt="">
+    </div>
+    
+    <div class="vl1"></div>
+    <div class="vl2"></div>
+
+
+<div class="form-container">
+<form actions="">   
+<div class="input-box">
+        <span>First Name</span>
+        <input type="search" name="" id="txtfirstname" placeholder="*Enter Your First Name" onchange="getinformation()">
+</div>
+<div class="input-box">
+    <span>Second Name</span>
+    <input type="search" name="" id="secondname" placeholder="*Enter Your Second Name" onchange="getinformation()">
+</div>
+<div class="input-box">
+    <span>Email</span>
+    <input type="search" name="" id="email" placeholder="*Enter Your Email" onchange="getinformation()">
+</div>
+<div class="input-box">
+    <span>CIN</span>
+    <input type="search" name="" id="cin" placeholder="*Enter  A Valid Number Of Your CIN" onchange="getinformation()">
+</div>
+<div class="input-box">
+    <span>Age</span>
+    <input type="search" name="" id="age" placeholder="*Enter Your Age" onchange="getinformation()">
+</div>
+<div class="input-box">
+    <span>Phone Number</span>
+    <input type="search" name="" id="phonenumber" placeholder="*Enter Your Phone Number" onchange="getinformation()">
+</div>
+
+<button id="btn" class="btn"  onclick="sendinformationtothelocalstorage()"><a href="../html/recu.html" alt="" >submit</a></button>
+    </form>
+</div>
+   
+
+</body>
+</html>

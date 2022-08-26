@@ -1,0 +1,73 @@
+
+body{
+    background-color: #eeefee;
+}
+
+.border {
+height: 200px;
+    background-color: white;
+    padding: 300px;
+    border: 5px solid gray;
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-top: 0px;
+  }
+
+
+/*img{ 
+    margin-left: -230px;
+    margin-top:-200px;
+    width: 60px;
+height: 60px;    
+}*/
+
+
+
+
+
+h1{
+    font-family:monospace;
+    font-size: xx-large;
+margin-top: -310px;
+margin-left: -50px;
+
+}
+.client{
+    margin-top: 10px;
+    margin-left: -200px;
+}
+.resume{
+    margin-top: -135px;
+    margin-left: 100px;
+}
+.car{
+    margin-top: 50px;
+    margin-left: -170px;
+}
+.montant{
+    margin-top: -40px;
+    margin-left: 60px;
+}
+.infos{
+    margin-top: 10px;
+    margin-left: -165px;
+}
+.context{
+    margin-top: 170px;
+}
+
+  hr{
+    border-top: 1px solid black;
+    margin-top: 10p;
+    margin-left: 10px;
+    border-radius: 5px;
+  }
+  .contact{
+    margin-top: -40px;
+    margin-left: 60px;
+  }
+  .phone{
+    margin-top: -40px;
+    margin-right: 60px;
+
+  }
